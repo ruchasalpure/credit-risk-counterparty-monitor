@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "credit-risk-counterparty-monitor"
+version: "1.0.0"
+category: "finance"
+author: "Rucha Salpure"
+description: "Aggregates real-time CDS spreads, bond yield inversions, and multi-lateral derivative netting exposures to flag counterparty solvency stress"
+capabilities:
+  - "credit-exposure-netting"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "credit-exposure-netting"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true

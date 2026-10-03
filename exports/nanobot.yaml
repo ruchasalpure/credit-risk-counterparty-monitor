@@ -1,0 +1,4 @@
+spec: nanobot/v1
+name: credit-risk-counterparty-monitor
+runtime: python3.11
+entrypoint: agent.py
