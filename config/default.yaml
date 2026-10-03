@@ -1,6 +1,0 @@
-app:
-  name: "credit-risk-counterparty-monitor"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"

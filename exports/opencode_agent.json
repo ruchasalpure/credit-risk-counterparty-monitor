@@ -1,8 +1,0 @@
-{
-  "agent_id": "credit-risk-counterparty-monitor",
-  "protocol": "opencode/v1",
-  "capabilities": [
-    "autonomous",
-    "governed"
-  ]
-}
